@@ -1,0 +1,9 @@
+source_path:src
+module_out:out
+module:begin
+test_a
+test_b
+end
+connect(test_a,test_b):begin
+3-2
+end
